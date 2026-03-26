@@ -32,6 +32,32 @@ let Igualdade = 10 == 10;
 
 console.log("A igualdade é:",Igualdade);
 
+// Menor 
 
+let menor = 5 < 10;
 
+console.log("É menor", menor)
 
+//Maior
+
+let maior = 40 > 20;
+
+console.log("É maior", maior)
+
+//Menor ou igual
+
+let menor_igual = 50<=15;
+
+console.log("É menor ou igual", menor_igual)
+
+//Maior ou igual
+
+let maior_igual = 40>=20;
+
+console.log("É maior ou igual", maior_igual)
+
+let idade = 30;
+
+let EmaiorDeIdade = (idade >= 18) ? "É maior de idade" : "Você é menor de idade";
+
+console.log(EmaiorDeIdade);
