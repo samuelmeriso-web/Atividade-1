@@ -56,8 +56,17 @@ let maior_igual = 40>=20;
 
 console.log("É maior ou igual", maior_igual)
 
+// Maior idade
+
 let idade = 30;
 
 let EmaiorDeIdade = (idade >= 18) ? "É maior de idade" : "Você é menor de idade";
 
 console.log(EmaiorDeIdade);
+
+//variavel
+const nome = "Usuário";
+
+const mensagem = `Olá, ${nome}!`;
+
+console.log(mensagem);
